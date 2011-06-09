@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ImageProcessing_Main.vi" Type="VI" URL="../../ImageProcessing_Main.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/Vision/Basics.llb/IMAQ Create"/>
@@ -93,6 +94,7 @@
 			<Item Name="ExtractPosRGB.vi" Type="VI" URL="../../ExtractPosRGB.vi"/>
 			<Item Name="RotateImg180.vi" Type="VI" URL="../../RotateImg180.vi"/>
 			<Item Name="SaveDatabasePic.vi" Type="VI" URL="../../SaveDatabasePic.vi"/>
+			<Item Name="排除太小圖片的錯誤.vi" Type="VI" URL="../../排除太小圖片的錯誤.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
